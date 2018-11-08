@@ -2,9 +2,11 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #FAFAFA;
 }
+
 a {
     color: #043667;
 }
+
 .container {
     width: 1350px;
     margin: 0 auto;
@@ -18,40 +20,48 @@ a {
     padding: 10px 37px;
     box-sizing: border-box;
 }
+
 .button.button-blue {
     color: #fff;
     background-color: #3e99ed;
 }
+
 button.button-empty {
     padding: 10px;
 }
+
 a.button {
     text-decoration: none;
     display: inline;
     justify-content: center;
     align-items: center;
 }
+
 nav {
     background-color: #FFF;
     padding: 30px 0;
     border-bottom: 1px solid #00000019;
 }
+
 nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 nav .logo .line {
     width: 1px;
     height: 46px;
     background-color: #262626;
     margin: 0 30px;
 }
+
 nav .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 nav .search input {
     width: 308px;
     height: 40px;
@@ -63,14 +73,19 @@ nav .search input {
     background: #FAFAFA url('../icons/search-icon.png') no-repeat 15px;
     padding-left: 40px;
 }
+
 nav .links ul {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
+
 nav .links ul li {
     list-style: none;
     margin-left: 45px;
 }
+
 nav .links ul li:first-of-type {
     margin-left: 0;
 }
@@ -79,16 +94,19 @@ nav .links ul li:first-of-type {
 .user-info {
     margin: 70px auto 60px;
 }
+
 .user-info .container {
     display: flex;
     justify-content: space-between;
 }
+
 .user-info .avatar {
     width: 422px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .user-info .avatar .avatar-background {
     width: 242px;
     height: 242px;
@@ -98,6 +116,7 @@ nav .links ul li:first-of-type {
     justify-content: center;
     align-items: center;
 }
+
 .user-info .avatar img {
     border: solid 6px #fff;
     border-radius: 100%;
@@ -105,62 +124,76 @@ nav .links ul li:first-of-type {
     height: 216px;
     object-fit: contain;
 }
+
 .user-info .description {
     width: 896px;
 }
+
 .user-info .description .user {
     display: flex;
     align-items: center;
 }
+
 .user-info .description .counter ul {
     display: flex;
     align-items: center;
     margin: 40px 0;
     padding: 0;
 }
+
 .user-info .description .counter ul li {
     list-style: none;
     font-size: 23px;
     margin-right: 60px;
 }
+
 .user-info .description .counter ul li:last-of-type {
     margin-right: 0;
 }
+
 .user-info .description .counter ul li span {
     font-size: 25px;
     font-weight: bold;
     margin-right: 10px;
 }
+
 .user-info .description .about {
     font-size: 23px;
 }
+
 .user-info .description .about span {
     font-size: 25px;
     font-weight: bold;
     margin-right: 20px;
 }
+
 .user-info .description .about p {
     margin: 0;
     display: inline-block;
 }
+
 .user-info .description .about a {
     display: block;
     margin-top: 20px;
     font-size: 19px;
 }
+
 .user-info .description .user .login {
     font-size: 49px;
     margin-right: 35px;
     font-weight: 100;
 }
+
 .user-info .description .user .button-follow {
     margin-right: 10px;
 }
+
 .user-info .description .user .button-menu {
     margin-right: 10px;
 }
+
 .user-info .description .user a.button.button-blue {
     margin-right: 10px;
     padding: 10px 15px;
     width: 49px;
-} 	
+}
